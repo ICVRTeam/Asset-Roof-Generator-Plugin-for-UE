@@ -1,19 +1,19 @@
 
 
-# ROOF GENERATOR
+# IC ROOF GENERATOR
 
-Asset Roof generator is made in Houdini program, which is then imported into Unreal Engine
-using a special Bridge between these programs. The main work of this tool is to generate tiles
+IC Roof Generator is a tool which allows for controlled procedural generation of 3D tiled roof assets in Houdini, after which it is  imported into Unreal Engine 5
+using a bridge between these programs. The main functionality of this tool is to generate tiles
 on the geometry supplied to it. It has certain settings with which you can control different
-parameters, sizes, rotations, thicknesses, indents, number of elements.
+parameters, sizes, rotations, thicknesses, indents, and number of elements.
 ____________________________________________________________________________
 To start working with our Roof Generator tool, you must first copy the Houdini Engine bridge
-program of the required version to the Plugins folder in UnrealEngin. You can get it in two ways:
+program of the required version to the Plugins folder in Unreal Engine. You can get it in two ways:
 1. When installing the Houdini program, you must check the box to install this bridge on your
 PC. When installing the program, this bridge will be located along the path:
 `C:\Program Files\Side Effects Software\Houdini version.x.xxx\engine\unreal\your-version`
-The contents of the version you need must be copied to the Plugin folder along the path where
-you have Unreal Engine installed. My path looks like this:
+The contents of the version you need must be copied to the Plugins folder along the path where
+you have Unreal Engine installed. For example:
 `C:\Program Files\Epic Games\UE_5.3\Engine\Plugins`
 
 ![img_p0_1](images/img_p0_1.png)
@@ -42,7 +42,7 @@ right corner of the screen.
 
 ![img_p1_2](images/img_p1_2.png)
 
-This completes our preliminary work.
+With this, everything is set up and you can begin to use the tool.
 
 ## UNREAL ENGINE
 
@@ -54,7 +54,7 @@ itself into the Unreal Engine to the desired folder.
 To start working with the Roof generator, we simply need to drag the asset from the content
 browser to the viewport.
 
-1 - In order to be able to assign an asset to a custom (user geometry), we need to select several
+1 - In order to be able to assign an asset to custom user-created geometry, we need to select several
 important settings.
 
 ![img_p1_3](images/img_p1_3.png)
@@ -99,7 +99,7 @@ custom geometry for our generator.
 
 ![img_p4_1](images/img_p4_1.png)
 
-Next, in the “Houdini inputs” tab, you need to select “World inputs” from the list, instead of the
+Next, in the “Houdini inputs” tab, you need to select “World input” from the list, instead of the
 default “Geometry input”.
 
 ![img_p4_3](images/img_p4_3.png)

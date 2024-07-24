@@ -6,6 +6,8 @@ IC Roof Generator is a tool which allows for controlled procedural generation of
 using a bridge between these programs. The main functionality of this tool is to generate tiles
 on the geometry supplied to it. It has certain settings with which you can control different
 parameters, sizes, rotations, thicknesses, indents, and number of elements.
+
+You can find an example of usage in production on the Epic Dev Community forum [here](https://dev.epicgames.com/community/learning/tutorials/jwne/unreal-engine-custom-procedural-roof-generation-with-houdini-ue5-icvr-lightfall).
 ____________________________________________________________________________
 To start working with our Roof Generator tool, you must first copy the Houdini Engine bridge
 program of the required version to the Plugins folder in Unreal Engine. You can get it in two ways:
